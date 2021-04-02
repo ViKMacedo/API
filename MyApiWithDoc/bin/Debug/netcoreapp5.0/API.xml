@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:MyApiWithDoc.Controllers.ClientsController.GetById(System.Int32)">
+            <summary>
+            Get the client response by client id
+            </summary>
+            <param name="id">Client id</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.ClientsController.GetByFilter(System.String,System.Nullable{Bogus.DataSets.Name.Gender})">
+            <summary>
+            Get the list of clients by name and/or gender
+            </summary>
+            <param name="name">Part of name</param>
+            <param name="gender">Male or Female</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.ClientsController.GetAll">
+            <summary>
+            Get the list of all clients
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.ClientsController.Post(MyApiWithDoc.Requests.CreateClientRequest)">
+            <summary>
+            Add a new client
+            </summary>
+            <param name="clientRequest">Client data</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.ClientsController.Put(System.Int32,MyApiWithDoc.Requests.UpdateClientRequest)">
+            <summary>
+            Update an existing clients
+            </summary>
+            <param name="id">Client id</param>
+            <param name="clientRequest">Client data</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.ClientsController.Patch(System.Int32,System.Boolean)">
+            <summary>
+            Enable or disable a client by client id
+            </summary>
+            <param name="id">Client id</param>
+            <param name="enabled">true or false</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyApiWithDoc.Controllers.ClientsController.Delete(System.Int32)">
+            <summary>
+            Remove a client by client id
+            </summary>
+            <param name="id">Client id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

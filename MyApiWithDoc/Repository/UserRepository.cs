@@ -11,8 +11,8 @@ namespace API.Repository
         {
             var users = new List<User>
             {
-                new User { Id = 1, Username = "batman", Password = "6261746D616E", Role = "manager" },
-                new User { Id = 2, Username = "robin", Password = "726F62696E", Role = "employee" }
+                new User { Id = 1, Username = "stark", Password = "6261746D616E", Role = "manager" },
+                new User { Id = 2, Username = "parker", Password = "726F62696E", Role = "employee" }
             };
             return users.Where(x => x.Username.ToLower() == username.ToLower() && x.Password == x.Password).FirstOrDefault();
         }

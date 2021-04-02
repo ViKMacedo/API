@@ -36,12 +36,12 @@ namespace Shop.Controllers
         [HttpGet]
         [Route("anonymous")]
         [AllowAnonymous]
-        public string Anonymous() => "Anônimo";
+        public string Anonymous() => "Cliente Anônimo";
 
         [HttpGet]
         [Route("authenticated")]
         [Authorize]
-        public string Authenticated() => String.Format("Autenticado - {0}", User.Identity.Name);
+        public string Authenticated() => String.Format("Cliente Autenticado - {0}", User.Identity.Name);
 
         [HttpGet]
         [Route("employee")]
