@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ATrpIdiXaLtSIR4kO5EpQ9brrQ+omcSkLWqrQ0cFi4CXM6VVSKLuuaOfRdrFCwI4zzn7FBCaATboU9OVevtx2w==",
+  "dgSpecHash": "OEbI7AtbKxmBY5591SOztxfK/cvruUmNLCWgDETsOVxs6+gI7rE0H9a4IWYQB8jPJhAc6W0oNLgtd5XHNf2ruQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master\\MyApiWithDoc\\API.csproj",
+  "projectFilePath": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master - Copia\\MyApiWithDoc\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cliente\\.nuget\\packages\\bogus\\33.0.2\\bogus.33.0.2.nupkg.sha512",
     "C:\\Users\\Cliente\\.nuget\\packages\\jpproject.aspnetcore.passwordhasher.argon2\\3.0.3\\jpproject.aspnetcore.passwordhasher.argon2.3.0.3.nupkg.sha512",

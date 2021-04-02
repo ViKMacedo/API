@@ -2207,11 +2207,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master\\MyApiWithDoc\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master - Copia\\MyApiWithDoc\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master\\MyApiWithDoc\\API.csproj",
+      "projectPath": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master - Copia\\MyApiWithDoc\\API.csproj",
       "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master\\MyApiWithDoc\\obj\\",
+      "outputPath": "C:\\Users\\Cliente\\source\\repos\\Agenda-API-master - Copia\\MyApiWithDoc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
